@@ -21,5 +21,4 @@ USER splunk
 EXPOSE 8000 8089 9997 514 10001 10002 10003 10004 10005
 
 VOLUME ["/opt/splunk/var", "/data", "/license"]
-CMD ["/opt/splunk/bin/splunk", "run"]
 
